@@ -448,7 +448,7 @@ table_generation_function <- function(icd_data, plot_title) {
 
 **Age Groups**: `r params$agegroup`
 
-**Data Quality**: All emergency department visits from facilities with an average weekly discharge diagnosis greater than or equal to `r params$ddi_gte`% and a coefficient of variation for emergency department visit volume less than or equal to `r params$cov_lte` from January 1, `r current_year` to present are included in this report.
+**Data Quality**: All emergency department visits from facilities with an average weekly discharge diagnosis greater than or equal to `r params$ddi`% and a coefficient of variation for emergency department visit volume less than or equal to `r params$cov` from January 1, `r current_year` to present are included in this report.
 
 ## Visit Groupings
 
